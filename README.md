@@ -14,16 +14,12 @@ Hola, he hecho un entorno para GNU/Linux desde cero, todo ha sido una busqueda p
 - Picom (Transparencias)
 - Polybar (Barra superior)
 - Shell (zsh)
-- Terminal (Kitty(
+- Terminal (Kitty)
 - Atajos (sxhkdrc)
 - Fonts (Hacker_nerd_Fonts)
 
 
 ## Atajos de Teclado:
-
-    
-
-######## ATAJOS##############3
 
     Windows + Enter: Abre una ventana de emulador de terminal (kitty).
     Windows + W: Cierra la ventana actual.
