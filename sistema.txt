@@ -1,0 +1,114 @@
+
+
+********************** AUDIO ************+++++
+#INICIAR AUDIO:
+	pulseaudio --start
+
+
+#SUBIR EL VOLUMEN:
+	pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+#BAJAR EL VOLUMEN:
+	pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+
+#Mutear el sonido
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+
+
+
+
+************** WI - FI ************************+
+
+#LISTAR REDES WIFI
+
+	nmcli device wifi list
+
+
+
+#LISTAR REDES WIFI
+
+
+	nmcli device wifi connect <SSID> password <PASSWORD>
+
+#VERIFICAR CONEXION:
+	
+	nmcli connection show
+
+#DESCONECTARTE DE LA RED ACTUAL
+
+	nmcli device disconnect wlan0
+
+
+***********CAPTURAS DE PANTALLA******************+
+
+
+#CAPTURA NORMAL DE TODA LA PANTALLA: 
+	scrot
+
+
+#CAPTURA DE AREA RECTANGULAR
+
+	scrot -s
+
+#ALIAS DE CAPTURA
+
+	captura
+
+
+
+
+#VER IMAGENES DESDE EL TERMINAL:
+	
+	kitty +kitten icat ~/Pictures/my_image.png
+
+######## ATAJOS##############3
+
+    Windows + Enter: Abre una ventana de emulador de terminal (kitty).
+    Windows + W: Cierra la ventana actual.
+    Windows + Alt + R: Reinicia la configuración de bspwm.
+    Windows + Alt + Q: Cierra sesión.
+    Windows + (⬆⬅⬇➡): Navega entre las ventanas en el espacio de trabajo actual.
+    Windows + D: Abre Rofi. Presiona Esc para salir.
+    Windows + (1,2,3,4,5,6,7,8,9,0): Cambia al espacio de trabajo respectivo.
+    Windows + T: Cambia la ventana actual al modo de mosaico.
+    Windows + M: Alterna la ventana actual al modo "completo" (no ocupa la polybar). Presiona las mismas teclas para volver al modo de mosaico.
+    Windows + F: Cambia la ventana actual al modo de pantalla completa (ocupa toda la pantalla, incluida la polybar).
+    Windows + S: Cambia la ventana actual al modo flotante.
+    Windows + Shift + (1,2,3,4,5,6,7,8,9,0): Mueve la ventana actual a otro espacio de trabajo.
+    Windows + Alt + (⬆⬅⬇➡): Cambia el tamaño de la ventana actual (solo funciona si está en modo flotante).
+    Windows + Ctrl + (⬆⬅⬆➡): Cambia la posición de la ventana actual (solo funciona si está en modo flotante).
+    Windows + Shift + F: Abre Firefox.
+    Windows + Shift + B: Abre Burpsuite.
+    Ctrl + Alt + L: Bloquea la pantalla.
+    Ctrl + Shift + ⬆⬇: Aumenta/disminuye el volumen.
+    Ctrl + Shift + M: Silencia/desilencia el volumen.
+    Windows + Ctrl + Alt + (⬆⬅⬇➡): Muestra una preselección y luego abre una ventana (kitty, Firefox, administrador de archivos, etc.).
+        Windows + Ctrl + Alt + Espacio: Deshace la preselección.
+    Ctrl + Shift + Enter: Abre una subventana en la ventana actual.
+    Ctrl + Shift + Z: Amplía la ventana de subventana actual.
+    Ctrl + (⬆⬅⬇➡): Navega entre subventanas en la ventana actual.
+    Ctrl + Shift + R: Cambia el tamaño de la subventana actual. Luego, utiliza:
+        W para 'Más Ancho'
+        N para 'Más Estrecho'
+        T para 'Más Alto'
+        S para 'Más Bajo'
+        R para 'Restablecer'
+        Esc para salir del modo de cambio de tamaño.
+    Ctrl + Shift + L: Alterna el arreglo de subventanas.
+    Ctrl + Shift + W: Cierra la subventana o pestaña actual.
+    Ctrl + Shift + T: Abre una pestaña en la ventana actual.
+    Ctrl + Shift + Alt + T: Renombra el título de la pestaña actual.
+    Ctrl + Shift + (⬅➡): Navega entre las pestañas actuales.
+    Ctrl + Shift + C: Copia al portapapeles.
+    Ctrl + Shift + V: Pega desde el portapapeles.
+    F1: Copia al búfer A.
+    F2: Pega desde el búfer A.
+    F3: Copia al búfer B.
+    F4: Pega desde el búfer B.
+
+
+
+
+
