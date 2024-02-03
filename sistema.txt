@@ -21,45 +21,44 @@
 
 ************** WI - FI ************************+
 
+#EJECUTAR WPA_SUPPLICANT
+    
+    sudo wpa_cli
+
+
 #LISTAR REDES WIFI
 
-	nmcli device wifi list
+    scan
+    scan_results
+    
 
+#CONFIRMAR QUE AGREGAREMOS UNA RED
 
+    add_network  Esto nos dejara lo usaremos al ingresar conexion
 
-#LISTAR REDES WIFI
+#INGRESAR SSID Y CONTRASEÑA DEL INTERNET:
 
+    set_network <id> ssid "nombre_red" 
+    set_network <id> psk "contraseña"
 
-	nmcli device wifi connect <SSID> password <PASSWORD>
+#CONECTARSE A LA RED
 
-#VERIFICAR CONEXION:
-	
-	nmcli connection show
+    enable_network <id>
 
-#DESCONECTARTE DE LA RED ACTUAL
-
-	nmcli device disconnect wlan0
 
 
 ***********CAPTURAS DE PANTALLA******************+
 
 
-#CAPTURA NORMAL DE TODA LA PANTALLA: 
-	scrot
-
-
-#CAPTURA DE AREA RECTANGULAR
-
-	scrot -s
-
-#ALIAS DE CAPTURA
-
-	captura
+#CAPTURA: 
+    
+    ctrl + print
 
 
 
 
-#VER IMAGENES DESDE EL TERMINAL:
+
+##############VER IMAGENES DESDE EL TERMINAL ##########:
 	
 	kitty +kitten icat ~/Pictures/my_image.png
 
