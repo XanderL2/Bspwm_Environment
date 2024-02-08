@@ -1,4 +1,4 @@
-# bspwm_environment
+# Bspwm_Environment
 
 ## Bienvenida
 Hola, he hecho un entorno para GNU/Linux desde cero, todo ha sido una busqueda por entorno perfecto para programar y aprender cosas nuevas. El entorno esta hecho en Kali Linux, sin embargo la distribucion no es problema y es aplicable a distintos tipos de distribuciones. Esta basado en un Window Manager muy usado en el mundo de la ciberseguridad, es muy comodo moverse a traves de el, la gestion de ventanas, transparencia  y personalizacion se hace agradable a la vista, es un entorno simple, comodo y funcional. El entorno esta hecho para hacer pestesting y aumentar tu productividad, poco a poco ire subiendo utilidades para el mismo, tales como scripts de gestion de redes mediante consola, gestion multimedia y demas.    
