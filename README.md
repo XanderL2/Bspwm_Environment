@@ -17,6 +17,8 @@ Hola, he hecho un entorno para GNU/Linux desde cero, todo ha sido una busqueda p
 - Terminal (Kitty)
 - Atajos (sxhkdrc)
 - Fonts (Hacker_nerd_Fonts)
+- Pamixer (Sound Manager)
+- Flameshot (Capturas de Pantalla)
 
 
 ## Atajos de Teclado:
