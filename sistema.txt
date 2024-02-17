@@ -1,5 +1,4 @@
 
-
 ********************** AUDIO ************+++++
 #INICIAR AUDIO:
 	pulseaudio --start
@@ -47,22 +46,32 @@
 
 
 
-***********CAPTURAS DE PANTALLA******************+
-
-
+*********** CAPTURA DE PANTALLA******************+
 #CAPTURA: 
     
     ctrl + print
 
 
+#################### SALIDA HDMI ####################
 
+
+
+xrandr --output HDMI-1-1 --mode 1920x1080
+
+o si funciona 
+
+
+xrandr --output HDMI-1-1 --auto
 
 
 ##############VER IMAGENES DESDE EL TERMINAL ##########:
 	
 	kitty +kitten icat ~/Pictures/my_image.png
 
-######## ATAJOS##############3
+
+
+
+######## ATAJOS##############
 
     Windows + Enter: Abre una ventana de emulador de terminal (kitty).
     Windows + W: Cierra la ventana actual.
