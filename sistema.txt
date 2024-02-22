@@ -17,7 +17,6 @@
 
 
 
-
 ************** WI - FI ************************+
 
 #EJECUTAR WPA_SUPPLICANT
@@ -66,9 +65,17 @@ xrandr --output HDMI-1-1 --auto
 
 ##############VER IMAGENES DESDE EL TERMINAL ##########:
 	
-	kitty +kitten icat ~/Pictures/my_image.png
+	kitty +icat ~/Pictures/my_image.png
 
+############# COMPRIMIR / DESCOMPRIMIR ARCHIVOS ################
 
+    - Comprimir: 
+
+        zip -r nombreArchivo.zip ./ruta
+        
+    - Descomprimir:
+
+        unzip nombre_archivo
 
 
 ######## ATAJOS##############
